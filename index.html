@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootcamp Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <!-- container allows us to wrap the contetnts -->
+      <div class="container">
+        <a class="navbar-brand" href="#">Frontend End Bootcamp</a>
+
+        <!-- Allows to collapse on smaller screens and show the whole content in larger screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What You'll Learn </a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link"
+                >Frequently Asked Questions
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructiors" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ShowCase -->
+    <section class="bg-dark text-light p-5 p-lg-0 text-sm-start">
+      <div class="container">
+        <!-- sm breakponit adjust it to small devices -->
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1 style="font-size: 2rem" class="ms-auto">
+              Learn<span style="color: yellow"> Web Development</span> with
+              HTML, CSS & <span style="color: yellow">JavaScript.</span>
+            </h1>
+            <button class="btn btn-primary" type="submit">
+              Start Enrollment
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 mt-4"
+            src="images/undraw_Coding_re_iv62.png"
+            alt="coding"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- NewsLetter Sign-Up -->
+    <section class="p-5 bg-primary text-white newsletter mb-5">
+      <div class=".d-md-flex.justify-content-between.align-items-center">
+        <h3 class="mb-3 mb-md-0">Sign Up For Our NewsLetter</h3>
+      </div>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control news-input"
+          placeholder="Enter Email"
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+        />
+        <button class="btn btn-dark btn-lg" type="button" id="button-addon2">
+          Subscribe
+        </button>
+      </div>
+    </section>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
